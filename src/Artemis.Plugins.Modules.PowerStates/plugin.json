@@ -1,0 +1,15 @@
+{
+    "Guid": "FBC87A24-37EF-40CD-BD1A-32E20B384BF8",
+    "Name": "Plugin Name",
+    "Description": "Plugin Description",
+    "Author": "",
+    "Website": "",
+    "Repository": "",
+    "Icon": "QuestionMark",
+    "Version": "1.0.0.0",
+    "Main": "Artemis.Plugins.Modules.PowerStates.dll",
+    "AutoEnableProperties": true,
+    "RequiresAdmin": false,
+    "Platforms": "Windows,Linux,OSX",
+    "Api": "1.0.0"
+}
