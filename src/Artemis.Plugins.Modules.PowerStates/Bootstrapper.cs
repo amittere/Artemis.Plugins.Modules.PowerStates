@@ -1,22 +1,16 @@
 using Artemis.Core;
 using Artemis.UI.Shared;
+using System;
 
 namespace Artemis.Plugins.Modules.PowerStates;
 
 public class Bootstrapper : PluginBootstrapper
 {
-    public override void OnPluginLoaded(Plugin plugin)
-    {
-        
-    }
-
     public override void OnPluginEnabled(Plugin plugin)
     {
-        
-    }
-    
-    public override void OnPluginDisabled(Plugin plugin)
-    {
-        
+        if (!OperatingSystem.IsWindows())
+        {
+            throw new NotImplementedException("Plugin only supports Windows");
+        }
     }
 }

@@ -1,15 +1,15 @@
 {
     "Guid": "FBC87A24-37EF-40CD-BD1A-32E20B384BF8",
-    "Name": "Plugin Name",
-    "Description": "Plugin Description",
-    "Author": "",
-    "Website": "",
-    "Repository": "",
-    "Icon": "QuestionMark",
+    "Name": "Power states module",
+    "Description": "Provides information about Windows system power states",
+    "Author": "amittere",
+    "Website": "https://github.com/amittere/Artemis.Plugins.Modules.PowerStates",
+    "Repository": "https://github.com/amittere/Artemis.Plugins.Modules.PowerStates",
+    "Icon": "PowerStandby",
     "Version": "1.0.0.0",
     "Main": "Artemis.Plugins.Modules.PowerStates.dll",
     "AutoEnableProperties": true,
     "RequiresAdmin": false,
-    "Platforms": "Windows,Linux,OSX",
+    "Platforms": "Windows",
     "Api": "1.0.0"
 }
