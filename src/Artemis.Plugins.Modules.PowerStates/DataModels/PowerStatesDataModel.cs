@@ -10,11 +10,19 @@ namespace Artemis.Plugins.Modules.PowerStates.DataModels
     public class PowerStatesDataModel : DataModel
     {
         public PowerState PowerState { get; set; }
+        public DisplayState DisplayState { get; set; }
     }
 
     public enum PowerState
     {
         Active,
         Suspended
+    }
+
+    public enum DisplayState
+    {
+        MonitorOn,
+        MonitorOff,
+        MonitorDimmed
     }
 }
