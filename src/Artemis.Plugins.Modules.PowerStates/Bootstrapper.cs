@@ -1,5 +1,4 @@
 using Artemis.Core;
-using Artemis.UI.Shared;
 using System;
 
 namespace Artemis.Plugins.Modules.PowerStates;

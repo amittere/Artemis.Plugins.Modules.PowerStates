@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Management;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Artemis.Core;
-using Artemis.Core.ColorScience;
 using Artemis.Core.Modules;
-using Artemis.Core.Services;
 using Artemis.Plugins.Modules.PowerStates.DataModels;
 using System.Runtime.Versioning;
 using System.Runtime.InteropServices;
